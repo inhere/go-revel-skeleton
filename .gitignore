@@ -1,0 +1,14 @@
+test-results/
+tmp/
+routes/
+.idea/
+.phpintel/
+.vscode/
+vendor/
+.env
+.git/
+*.log
+*.pid
+*.exe
+*.exe~
+*.tar
