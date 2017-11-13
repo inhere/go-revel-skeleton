@@ -1,5 +1,7 @@
 # application
 
+go 框架 revel 配合 swagger-ui 应用骨架搭建介绍
+
 ## [当前项目](project.md)
 
 ## 使用技术
@@ -38,10 +40,17 @@ ll {PROJECT_NAME}
 
 ## go swagger
 
-生成 swagger 文档 json 文件
+用于生成 swagger-ui 可读的json 文档文件
 
 - 文档 https://goswagger.io/
 - Github https://github.com/go-swagger/go-swagger
+
+### 安装 
+
+```sh
+go get -u -v github.com/go-swagger/go-swagger/cmd/swagger
+swagger -h
+```
 
 ### 文档生成
 
