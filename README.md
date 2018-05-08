@@ -4,13 +4,19 @@ go 框架 revel 配合 swagger-ui 应用骨架搭建介绍
 
 ## [当前项目](project.md)
 
-## 使用技术
+## 相关项目
 
-- `revel` go 框架 
-- `go-swagger` swagger.json 生成 
-- `swagger-ui` 显示API文档 
+- `revel` 一个全栈式 golang 框架 
+- `go-swagger` 通过注释生成 `swagger.json`
+- `swagger-ui` 显示API文档。 将 `swagger.json` 渲染成 html
 
 ## revel
+
+- github https://github.com/revel/revel
+- 官方模块 https://github.com/revel/modules
+- 官方文档 https://revel.github.io
+- 另一份文档 https://git-books.github.io/books/revel/
+- 另一份文档 https://git-books.gitee.io/books/revel/
 
 ### 安装revel
 
@@ -31,14 +37,7 @@ ll {PROJECT_NAME}
 
 转到项目目录下执行 `revel run` 访问 `http://localhost:9000/`
 
-### 链接
-
-- github https://github.com/revel/revel
-- 官方模块 https://github.com/revel/modules
-- 官方文档 https://revel.github.io
-- 另一份文档 https://git-books.github.io/books/revel/
-
-## go swagger
+## go-swagger
 
 用于生成 swagger-ui 可读的json 文档文件
 
